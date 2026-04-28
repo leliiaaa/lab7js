@@ -1,0 +1,114 @@
+:root {
+    --main-pink: #ffafcc;
+    --dark-pink: #ff8fab;
+    --soft-pink: #fde2e4;
+    --deep-purple: #4a148c;
+    --white: #ffffff;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--soft-pink);
+    color: var(--deep-purple);
+    margin: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: var(--white);
+    padding: 15px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid var(--main-pink);
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--dark-pink);
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--deep-purple);
+    font-weight: 600;
+    margin-left: 25px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: var(--dark-pink);
+}
+
+/* Hero Section */
+.hero {
+    padding: 100px 20px;
+    background: white;
+    border-radius: 30px;
+    margin-top: 50px;
+    box-shadow: 0 10px 30px rgba(255, 143, 171, 0.2);
+}
+
+/* Grid для карток */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    padding: 40px 0;
+}
+
+/* Картки */
+.card {
+    background: var(--white);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid transparent;
+    transition: 0.4s;
+}
+
+.card:hover {
+    border-color: var(--main-pink);
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(255, 175, 204, 0.4);
+}
+
+.card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.price {
+    display: block;
+    font-size: 1.4rem;
+    color: var(--dark-pink);
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.btn-main {
+    background: var(--dark-pink);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-main:hover {
+    background: var(--deep-purple);
+}
+
+.specials-banner {
+    background: linear-gradient(45deg, #ffafcc, #ffc8dd);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
