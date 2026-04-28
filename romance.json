@@ -1,1 +1,33 @@
-
+{
+  "category_name": "Романтична літератур",
+  "items": [
+    { 
+      "id": 101, 
+      "name": "Гордість і упередження", 
+      "description": "Класичний роман Джейн Остін.", 
+      "price": 250, 
+      "image": "img/book1.jpg" 
+    },
+    { 
+      "id": 102, 
+      "name": "До зустрічі з тобою", 
+      "description": "Зворушлива історія кохання.", 
+      "price": 310, 
+      "image": "img/book2.jpg" 
+    },
+    { 
+      "id": 103, 
+      "name": "Нормальні люди", 
+      "description": "Сучасний погляд на стосунки.", 
+      "price": 280, 
+      "image": "img/book3.jpg" 
+    },
+    { 
+      "id": 104, 
+      "name": "Щоденник пам'яті", 
+      "description": "Любов крізь роки.", 
+      "price": 220, 
+      "image": "img/book4.jpg" 
+    }
+  ]
+}
