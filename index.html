@@ -2,12 +2,14 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <title>Книжковий магазин</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookShelf - Книгарня твоєї мрії</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="logo">BookShelf 💌</div>
+        <div class="logo">BookShelf 🌸</div>
         <nav>
             <a href="index.html" id="home-link">Додому</a>
             <a href="#" id="catalog-link">Каталог</a>
@@ -15,10 +17,14 @@
     </header>
 
     <main id="main-content">
-        <div class="hero">
-            <h1>Вітаємо у нашій книгарні!</h1>
-            <p>Оберіть "Каталог", щоб переглянути наші книги.</p>
-        </div>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>Твоя затишна книжкова полиця</h1>
+                <p>Відкрий для себе нові світи. Кожна книга чекає саме на тебе.</p>
+                <div class="hero-decor">✨ 📖 ✨</div>
+                <button class="btn-explore" onclick="document.getElementById('catalog-link').click()">Відкрити каталог</button>
+            </div>
+        </section>
     </main>
 
     <script src="script.js"></script>
