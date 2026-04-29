@@ -6,42 +6,42 @@
       "name": "Джури козака Швайки",
       "description": "Володимир Рутківський. Захопливі пригоди юних друзів у часи козаччини. Справжня українська пригода!",
       "price": 290,
-      "image": "img/kids/shvayka.webp"
+      "image": "img/children/shvayka.webp"
     },
     {
       "id": 502,
       "name": "Чарлі і шоколадна фабрика",
       "description": "Роальд Дал. Історія про магічну фабрику Віллі Вонки, де на кожного чекає диво або повчальний урок.",
       "price": 250,
-      "image": "img/kids/charlie.webp"
+      "image": "img/children/charlie.webp"
     },
     {
       "id": 503,
       "name": "Гаррі Поттер і філософський камінь",
       "description": "Дж. К. Ролінґ. Хлопчик, який вижив, дізнається, що він чарівник, і вирушає до школи Гоґвортс.",
       "price": 450,
-      "image": "img/kids/potter1.webp"
+      "image": "img/children/potter1.webp"
     },
     {
       "id": 504,
       "name": "Тореадори з Васюківки",
       "description": "Всеволод Нестайко. Найкумедніші пригоди Яви та Павлуші, які намагаються збудувати метро під свинарником.",
       "price": 820,
-      "image": "img/kids/toreadors.webp"
+      "image": "img/children/toreadors.webp"
     },
     {
       "id": 505,
       "name": "Аліса в Країні Див",
       "description": "Льюїс Керролл. Слідуй за білим кроликом у світ, де немає нічого неможливого, а здоровий глузд не працює.",
       "price": 210,
-      "image": "img/kids/alice.webp"
+      "image": "img/children/alice.webp"
     },
     {
       "id": 506,
       "name": "Матильда",
       "description": "Роальд Дал. Про надзвичайно розумну дівчинку, яка вміє рухати предмети поглядом і бореться з несправедливістю.",
       "price": 240,
-      "image": "img/kids/matilda.webp"
+      "image": "img/children/matilda.webp"
     }
   ]
 }
