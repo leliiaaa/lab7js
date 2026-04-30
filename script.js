@@ -8,7 +8,7 @@
     }
 
     async function showCatalog() {
-        mainContent.innerHTML = "<h2 style='text-align:center'>Завантаження магії...</h2>";
+        mainContent.innerHTML = "<h2 style='text-align:center'>Завантаження магії... ✨</h2>";
         const categories = await loadData('categories.json');
         
         let html = `<h2 style="font-size: 2.5rem; text-align:center">Каталог</h2><div class="grid">`;
